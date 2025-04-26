@@ -60,7 +60,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} AhaKnow. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} AHAKNOW LLC. All rights reserved.</p>
       </footer>
     </div>
   )

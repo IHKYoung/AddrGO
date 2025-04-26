@@ -79,7 +79,7 @@ export default function Privacy() {
           <section className={styles.section}>
             <h2>联系我们</h2>
             <p>如果您对本隐私政策有任何疑问或建议，请通过以下方式联系我们：</p>
-            <p>电子邮件：privacy@ahaknow.com</p>
+            <p>电子邮件：hi@ahaknow.com</p>
           </section>
         </div>
         
@@ -89,7 +89,7 @@ export default function Privacy() {
       </main>
       
       <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} AhaKnow. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} AHAKNOW LLC. All rights reserved.</p>
       </footer>
     </div>
   )

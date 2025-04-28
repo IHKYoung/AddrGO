@@ -1,27 +1,3 @@
 {
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "framework": "nextjs",
-  "routes": [
-    {
-      "src": "/privacy",
-      "dest": "/privacy"
-    },
-    {
-      "src": "/support",
-      "dest": "/support"
-    },
-    {
-      "src": "/contact",
-      "dest": "/contact"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ]
+  "framework": "nextjs"
 }

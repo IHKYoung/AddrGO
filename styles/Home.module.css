@@ -1,7 +1,9 @@
 .heroSection {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: linear-gradient(135deg, rgba(248, 249, 250, 0.8) 0%, rgba(233, 236, 239, 0.8) 100%);
   padding: 5rem 0;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .heroContent {
@@ -38,8 +40,9 @@
   margin-top: 3rem;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  transition: transform 0.3s ease;
 }
 
 .featuresSection {

@@ -48,12 +48,11 @@ export default function Privacy() {
           
           <section className={styles.section}>
             <h2>应用权限说明</h2>
-            <p>AddrGO应用：</p>
+            <p>地址翻译应用：</p>
             <ul>
               <li>仅需要最基本的权限即可运行</li>
               <li>不会请求访问位置信息、通讯录或其他个人数据</li>
               <li>不会请求访问相机或麦克风</li>
-              <li>只在用户主动选择导出转换结果时才会请求存储权限</li>
             </ul>
           </section>
           

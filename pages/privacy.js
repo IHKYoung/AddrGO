@@ -1,29 +1,31 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Privacy.module.css'
 
 export default function Privacy() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>AddrGO - 隐私政策</title>
-        <meta name="description" content="AddrGO地址翻译神器的隐私政策" />
+        <title>隐私政策 - 地址翻译</title>
+        <meta name="description" content="地址翻译应用的隐私政策，我们不收集任何用户个人信息" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>AddrGO 隐私政策</h1>
-        <p className={styles.lastUpdated}>最后更新：2025-04-26</p>
+      <div className={styles.privacyContainer}>
+        <div className={styles.privacyHeader}>
+          <h1 className={styles.privacyTitle}>隐私政策</h1>
+          <p className={styles.lastUpdated}>最后更新：2025-04-26</p>
+        </div>
         
-        <div className={styles.policyContent}>
+        <div className={styles.privacyContent}>
           <section className={styles.section}>
             <h2>引言</h2>
-            <p>AddrGO应用（以下简称"我们"或"本应用"）高度重视用户的隐私保护。本隐私政策旨在向您说明我们的应用如何处理您的信息，特别是我们<strong>不收集任何用户个人信息</strong>的承诺。</p>
+            <p>地址翻译应用（以下简称"我们"或"本应用"）高度重视用户的隐私保护。本隐私政策旨在向您说明我们的应用如何处理您的信息，特别是我们<strong>不收集任何用户个人信息</strong>的承诺。</p>
           </section>
           
           <section className={styles.section}>
             <h2>不收集用户信息的承诺</h2>
-            <p>AddrGO承诺：</p>
+            <p>地址翻译应用承诺：</p>
             <ul>
               <li>不收集任何用户个人信息</li>
               <li>所有地址转换操作均在本地设备上完成，不会将输入的地址数据上传到任何服务器</li>
@@ -81,15 +83,7 @@ export default function Privacy() {
             <p>电子邮件：hi@ahaknow.com</p>
           </section>
         </div>
-        
-        <Link href="/" className={styles.backLink}>
-          返回首页
-        </Link>
-      </main>
-      
-      <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} AHAKNOW LLC. All rights reserved.</p>
-      </footer>
-    </div>
+      </div>
+    </>
   )
 }

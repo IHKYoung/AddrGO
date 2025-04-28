@@ -1,18 +1,22 @@
 {
-  "name": "privacy-policy",
+  "name": "addrgo-website",
   "version": "1.0.0",
-  "description": "Privacy policy pages for AhaKnow apps",
+  "description": "地址翻译应用官方网站",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "export": "next export",
+    "start": "next start",
+    "vercel-build": "next build"
   },
   "keywords": [
-    "privacy",
-    "policy"
+    "address",
+    "translation",
+    "chinese",
+    "english"
   ],
-  "author": "",
+  "author": "AHAKNOW LLC",
   "license": "ISC",
   "dependencies": {
     "next": "^14.0.0",

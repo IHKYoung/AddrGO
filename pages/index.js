@@ -59,7 +59,7 @@ export default function Home() {
               <div className={styles.featureIcon}>🌍</div>
               <h3 className={styles.featureTitle}>多语言支持</h3>
               <p className={styles.featureDescription}>
-                支持中转多种语言，包括日语、韩语、法语等，满足不同国家和地区的需求
+                支持多种语言，包括日语、韩语、法语等，满足不同国家和地区的需求
               </p>
             </div>
             

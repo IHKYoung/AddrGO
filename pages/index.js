@@ -57,9 +57,9 @@ export default function Home() {
             
             <div className={styles.featureCard}>
               <div className={styles.featureIcon}>🌍</div>
-              <h3 className={styles.featureTitle}>多语言支持</h3>
+              <h3 className={styles.featureTitle}>自动邮编</h3>
               <p className={styles.featureDescription}>
-                支持多种语言，包括日语、韩语、法语等，满足不同国家和地区的需求
+                根据输入的地址自动获取地址所在区域的邮编信息
               </p>
             </div>
             

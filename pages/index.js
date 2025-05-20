@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>地址翻译 - 一键将中文地址转为国际标准英文格式</title>
-        <meta name="description" content="地址翻译应用专为中文地址设计，一键转写成国际标准英文格式，无需手动调整、无需猜测顺序。" />
+        <title>地址翻译 - 一键将多语言地址转为国际标准英文格式</title>
+        <meta name="description" content="地址翻译应用专为多语言地址设计，一键转写成国际标准英文格式，无需手动调整、无需猜测顺序。" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>地址翻译</h1>
           <p className={styles.heroSubtitle}>
-            一键将中文地址转为国际标准英文格式，无需手动调整、无需猜测顺序
+            一键将多语言地址转为国际标准英文格式，无需手动调整、无需猜测顺序
           </p>
           <div className={styles.heroCta}>
             <a href="#features" className="btn btn-primary">了解功能</a>
@@ -43,7 +43,7 @@ export default function Home() {
               <div className={styles.featureIcon}>🧠</div>
               <h3 className={styles.featureTitle}>智能解析</h3>
               <p className={styles.featureDescription}>
-                准确提取中文地址中的小区、栋号、单元、门牌等元素，确保转换的准确性
+                准确提取多语言地址中的小区、栋号、单元、门牌等元素，确保转换的准确性
               </p>
             </div>
             
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>🌍</div>
+              <div className={styles.featureIcon}>🌀</div>
               <h3 className={styles.featureTitle}>自动邮编</h3>
               <p className={styles.featureDescription}>
                 根据输入的地址自动获取地址所在区域的邮编信息
@@ -64,10 +64,10 @@ export default function Home() {
             </div>
             
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>🌀</div>
-              <h3 className={styles.featureTitle}>多种格式</h3>
+              <div className={styles.featureIcon}>🌍</div>
+              <h3 className={styles.featureTitle}>多种语言</h3>
               <p className={styles.featureDescription}>
-                支持两种格式：国际标准格式和简洁速填版，根据不同场景灵活选择
+                支持中文、英文、日文、韩文、法文、德文、西班牙文、葡萄牙文、意大利文、俄文等
               </p>
             </div>
             
